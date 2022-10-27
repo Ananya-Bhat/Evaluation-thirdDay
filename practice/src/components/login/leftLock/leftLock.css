@@ -1,0 +1,92 @@
+.LockDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lockBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 334px;
+}
+
+.lockImage {
+  padding: 94px 81px 30px 81px;
+}
+
+.lockBoxText {
+  color: var(--color2);
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  text-align: center;
+  padding-bottom: 99px;
+}
+.lockMinImage {
+  display: none;
+}
+
+.tabsContainer {
+  display: none;
+}
+
+.parent{
+    border-right: 1px solid var(--color4);
+}
+
+@media only screen and (max-width: 845px) {
+  .lockBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+    max-width: 100vh;
+    border-bottom: 1px solid var(--color4);
+  }
+
+  .lockImage {
+    display: none;
+  }
+
+  .lockMinImage {
+    display: block;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .lockBoxText {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .tabsContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .linkToSign {
+    text-decoration: none;
+    color: var(--color2);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+
+  .parent{
+    border-right: none;
+    border-bottom: 1px solid var(--color4);
+}
+}
+
+.selected {
+  border-bottom: 2px solid orange !important;
+}

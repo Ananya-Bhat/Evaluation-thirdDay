@@ -1,0 +1,123 @@
+/* .modalBody {
+  position: relative;
+  background-color: var(--color2);
+  padding: 24.5px 30.5px;
+  border-radius: 0.8em;
+  display: flex;
+  flex-direction: column;
+  width: 62%;
+} */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  /* width: 100%; */
+  margin: 0 12%;
+  padding: 8rem 0 0 8rem;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+  position: relative;
+  background: var(--color2);
+  padding: 20px 43px;
+  border-radius: 0.8em;
+}
+
+.modalInputBar {
+  border: none;
+  outline: none;
+  border: 1px solid var(--topBar);
+  border-radius: 4px;
+  background-color: var(--topBar);
+  height: 36px;
+  padding: 20px 60px 20px 60px;
+  width: 100%;
+}
+
+.modalInput div {
+  color: #949ca5;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.modalTitle {
+  color: var(--color6);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 41px;
+  margin-bottom: 41px;
+}
+
+.modalBodyForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 26px;
+  grid-column-gap: 20px;
+}
+
+.occupy {
+  grid-column: span 2;
+}
+
+.modalButton {
+  height: 46px;
+  width: 181px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 19.5px;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 20px 0 20px 0;
+  /* padding-left: 1em; */
+}
+
+.modalResetButton {
+  background: none;
+  height: 46px;
+  width: 181px;
+  border: 1px solid var(--color1);
+  border-radius: 4px;
+  color: var(--color1);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.modalSaveButton {
+  background-color: var(--color1);
+  color: var(--color2);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.paswordEyeContainer {
+  position: relative;
+}
+
+.passwordEye {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

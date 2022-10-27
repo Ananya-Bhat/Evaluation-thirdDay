@@ -1,0 +1,53 @@
+.topBar {
+  position: fixed;
+  z-index: 1;
+  margin-left: 8rem;
+  top: 0;
+  right: 12%;
+  left: 12%;
+  height: 8rem;
+  background-color: var(--topBar);
+}
+
+.topBarContents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 1.8em 5em 0 5em;
+}
+
+.topBarOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.topBarOptions div {
+  cursor: pointer;
+}
+
+.profileContents {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: var(--color2);
+  box-shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.02);
+  padding: 2px;
+}
+
+.changePassword {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.bottomLine {
+  border-bottom: 1px solid #f5f7fb;
+}

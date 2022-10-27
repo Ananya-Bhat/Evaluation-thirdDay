@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  --color1: #0e85ff;
+  --color2: #ffffff;
+  --color3: #787e8c;
+  --color4: #f5f7fb52;
+  --success: #cbf3dc;
+  --color5: #fafafa;
+  --sideBar: #2892ff;
+  --topBar: #f5f7fb;
+  --active: #ffa043;
+  --color6: #3c4857;
+  --bodyMargin: 0 12%;
+}

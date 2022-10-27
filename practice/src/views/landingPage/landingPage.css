@@ -1,0 +1,23 @@
+.landingPage {
+    background-image: linear-gradient(180deg, #20BBFF 0%, #0E85FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 845px) {
+    .landingPage {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
